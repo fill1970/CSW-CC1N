@@ -1,0 +1,25 @@
+/*style.css*/
+/*área de definilção de regras @*/
+@charset "UTF-8";
+/*comentário aqui é diferente*/
+/*estilos definidos para minha página*/
+
+
+body{
+    background-color: rgb(209, 203, 203);
+}
+h1{
+    font-size: 2em ;
+    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+}
+h2{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    color: blue;
+}
