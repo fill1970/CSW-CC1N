@@ -1,0 +1,36 @@
+/*style.css*/
+@charset "utf-8"
+
+
+
+h1{
+    
+   text-decoration: underline;
+   text-align: center;
+  }
+  .sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+h2{
+    text-align: center;
+
+}
+p{
+    text-align: center;
+    font-family: ;
+    font size: ;
+
+}
+main{
+    background-color: white;
+
+
+
+}
+body{
+    background-image: ;
+}
