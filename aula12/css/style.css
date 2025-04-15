@@ -1,0 +1,35 @@
+/*style.css*/
+@charset "utf-8";
+/*comentário aqui é diferente*/
+/*estilos definidos para a minha página*/
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #043C62;
+    text-shadow: 2px 2px 2px #434545;
+}
+h2{
+    color: #043C62;
+    text-align: center;
+
+}
+body{
+    background-image: linear-gradient(90deg,#043C62,#12a1e7,#05b1bf,#8edef7);
+}
+p{
+    text-align: justify;
+    text-align: center;
+}
+main{
+    background-color: white;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 2%;
+    padding: 10px;
+    box-shadow: 30px, 30px, 30px #434545;
+    border: 1px solid #434545;
+}
