@@ -1,0 +1,54 @@
+/*style.css*/
+@charset "utf-8";
+
+@font-face {
+    font-family: "top secret"   ;
+    src: url('Top\ Secret.ttf');
+}
+
+@font-face {
+    font-family:"gimme danger" ;
+    src: url('Gimme\ Danger.ttf');
+}
+
+@font-face {
+    font-family:"ll cooper" ;
+    src: url('LLCOOPER.TTF');
+}
+
+h1{font-family:'top secret' ;
+    text-align: center;
+    font-weight: 500;
+    
+
+}
+
+h2{
+    font-family:'Gimme Danger';
+    text-align: center;
+    font-weight: 150;
+}
+
+
+
+p{
+    font-family:'ll cooper';
+    text-align: justify;
+}
+
+body{
+    background-image: url(../download/2forest.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+
+div{
+    background-color:rgb(255,255, 255,0.3);
+    border-radius: 2%;
+    top: 50%;
+    left: 50%;
+    transform: translate(20%);
+    border:1px solid #434545 ;
+    width: 70%;
+}
