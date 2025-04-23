@@ -1,0 +1,50 @@
+/*style.css*/
+
+@charset "utf-8";
+
+.classe01{
+    width: 20%;
+    height: 50px;
+    background-color: lightgrey;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    padding: 20px;
+    outline-style: solid;
+    outline-width: 10px;
+    outline-color: blue;
+    margin: 50px;
+}
+#titulo01{
+    width: 20%;
+    height: 50px;
+    background-color: lightgrey;
+    border-width: 10px;
+    border-style: solid;
+    border-color:blue;
+    padding: 20px;
+    outline-style: solid;
+    outline-width: 10px;
+    outline-color:red;
+    margin: 50px;
+}
+#divsimples01{
+    background-color: lightseagreen;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+
+}
+.divtratada{
+    display: inline-block;
+    background-color: lightseagreen;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 30px;
+}
+h1{
+    display: inline-block;
+}
