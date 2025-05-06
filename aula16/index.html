@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula16</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nomeusuario00" name="nome-usuário" size="40" maxlength="50" value="" placeholder="Digite o nome do usuário" required>
+        <input type="submit" value="enviar nome">
+        <br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="emailusuario00" name="emailusuario" size="40" value="" placeholder="Digite o email do usuario" required>
+        <input type="submit" value="enviar e-mail">
+        <br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha00" name="senha-00" placeholder="Digite sua senha" required>
+        <input type="submit" value="enviar senha">
+        <br><br>
+        <label for="data">Data de nascimento:</label>
+        <input type="datetime-local" name="dtlocal" id="dt-local" required>
+        <input type="time" name="time" id="time"><br><br>
+        <label for="">Selecione o tipo de conteúdo:</label>
+        <br>
+        <input type="checkbox" name="op-00" value="opção00">Opção00
+        <br>
+        <input type="checkbox" name="op-01" value="opção01">Opção01
+        <br>
+        <input type="checkbox" name="op-02" value="opção02">Opção02
+        <br>
+        <input type="checkbox" name="op-03" value="opção03">opção03
+        <br>
+        <br>
+        <label for="">Esporte de interessse</label>
+        <select name="locais" size="1">
+        <option value="">Selecione</option>
+        <option value="jj">jiu-jitsu</option>
+        <option value="MTY">Muay Thai</option>
+        <option value="karatê">karatê</option>
+        <option value="judô">judô</option>
+        <option value="capoeira">Capoeira</option>
+        </select>
+        <br><br>
+        <label for="">Receber contato?</label>
+        <input type="radio" name="opção-01" value="sim">
+        <input type="radio" name="opção-01" value="não">
+        <br><br>
+        <label for="color">selecione sua cor</label>
+        <input type="color" name="cor" id="cor_01">
+        <br>
+        <br>
+        <label for="">selecione um arquivo</label>
+        <input type="file" name="file-01" id="file" placeholder="selecione um arquivo">
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="limpar">
+    </form>
+    
+</body>
+</html>
