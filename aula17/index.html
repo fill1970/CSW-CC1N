@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula17</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Formulário</h1>
+    <div id="container">
+        <div class="div00">
+            <form action="" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nomeusuario00" name="nome-usuário" size="40" maxlength="50" value=""
+                    placeholder="Digite o nome do usuário" required>
+
+                <br><br>
+                <label for="email">email:</label>
+                <input type="email" id="emailusuario00" name="emailusuario" size="40" value=""
+                    placeholder="Digite o email do usuario" required>
+                <br><br>
+                <label for="color">selecione sua cor</label>
+                <input type="color" name="cor" id="cor_01">
+
+                <br><br>
+                <label for="idade">idade:</label>
+                <input type="text" id="senha00" name="idadeuser00" placeholder="Digite sua idade" required>
+                <br>
+                <br>
+                <label for="data">Data de nascimento:</label>
+                <input type="datetime-local" name="dtlocal" id="dt-local" required>
+                <input type="time" name="time" id="time"><br><br>
+
+                <label for="">selecione um arquivo</label>
+                <input type="file" name="file-01" id="file" placeholder="selecione um arquivo">
+        </div>
+        <br>
+        <br>
+        <div>
+            <div class="div05">
+
+                <label for="email">email:</label>
+                <input type="email" id="emailusuario00" name="emailusuario" size="40" value=""
+                    placeholder="Digite o email do usuario" required>
+                <br>
+                <br>
+                <label for="idade">senha:</label>
+                <input type="password" id="senha00" name="idadeuser00" placeholder="Digite sua senha" required>
+
+            </div>
+            <div class="div01">
+                <input type="checkbox" name="op-00" value="opção00">Opção00
+                <br>
+                <input type="checkbox" name="op-01" value="opção01">Opção01
+                <br>
+                <input type="checkbox" name="op-02" value="opção02">Opção02
+                <br>
+                <input type="checkbox" name="op-03" value="opção03">opção03
+            </div>
+            <div class="div02">
+                <input type="checkbox" name="op-00" value="opção00">Opção00
+                <br>
+                <input type="checkbox" name="op-01" value="opção01">Opção01
+                <br>
+                <input type="checkbox" name="op-02" value="opção02">Opção02
+                <br>
+                <input type="checkbox" name="op-03" value="opção03">opção03
+            </div>
+        </div>
+        <div class="div03">
+
+            <textarea name="comentário" cols="30" rows="10" id="fds" placeholder="escreva um comentário"></textarea>
+
+        </div>
+        <br>
+        <br>
+        <div class="div04">
+
+            <label for="">Esporte de interessse</label>
+            <select name="locais" size="1">
+                <option value="">Selecione</option>
+                <option value="jj">jiu-jitsu</option>
+                <option value="MTY">Muay Thai</option>
+                <option value="karatê">karatê</option>
+                <option value="judô">judô</option>
+                <option value="capoeira">Capoeira</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="">selecione um arquivo</label>
+            <input type="file" name="file-01" id="file" placeholder="selecione um arquivo">
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
+        </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
