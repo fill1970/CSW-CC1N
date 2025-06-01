@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula21</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h3>olhe o console</h3>
+    <script type="text/javaScript">
+        for (let par = 0; par <= 1000; par += 2) {
+            impar= 999 - par;
+            console.log(par);
+            console.log(par + "<br>");
+            console.log(impar + "<br>");
+        }
+    </script>
+
+    <label for="data">Data de nascimento:</label>
+    <input type="datetime-local" name="dtlocal" id="dt-local" required>
+    <input type="time" name="time" id="time"><br><br>
+
+    <br>
+
+    <div>
+        <h1>calculadora</h1>
+        <input type="number" id="numero1">
+        <label for=""></label>
+        <select id="operacao">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input id="numero2" type="number">
+        <button class="" onclick="calculadora()">calcule</button>
+        <h2 id="resultado"></h2>
+    </div>
+    <br>
+    <br>
+    <div id="container">
+        <h1>lista de tarefas</h1>
+        <p>adicione sua tarefa</p>
+        <input type="text" id="456" placeholder="digite sua tarefa">
+        <button onclick="adicionartarefa()">adicionar tarefa</button>
+        <p id="500"></p>
+        <ul id="listaul"></ul>
+    </div>
+</body>
+
+</html>
